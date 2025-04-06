@@ -1,12 +1,12 @@
 ## 👋 Welcome LikeLion_13th Backend Repository
-**멋쟁이사자처럼 홍익대학교 13기 세션**을 위한 백엔드 리포지토리입니다.
+**멋쟁이사자처럼 홍익대학교 13기 세션**을 위한 백엔드 Repository입니다.
 
 ### 📚 과제
 각 주차 세션 전에
-1. [\[스프링 입문 - 코드로 배우는 스프링 부트, 웹 MVC, DB 접근 기술\]](https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81-%EC%9E%85%EB%AC%B8-%EC%8A%A4%ED%94%84%EB%A7%81%EB%B6%80%ED%8A%B8)에서 해당 주차 섹션을 수강합니다.
+1. 과제로 나오는 강의를 수강하고, 실습을 완료합니다.
 2. 해당 week 디렉터리/자신의 이름 디렉터리 하위에
 3. 자신의 이름으로 브랜치를(`week2/hongyeop`) 생성 후
-4. 세션 실습은 practice 디렉터리에, 과제(인프런 강의 실습 코드)는 homework에 각각 작성을 완성하신 뒤에 `main` 브랜치로 PR합니다.
+4. 세션 실습은 practice 디렉터리에, 과제(강의 실습 코드)는 homework에 각각 작성을 완성하신 뒤에 `main` 브랜치로 PR합니다.
 
 ### 📝 커밋 컨벤션
 commit message는 `[Type] 작성 내용` 으로 통일합니다
