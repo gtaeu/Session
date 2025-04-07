@@ -1,13 +1,13 @@
-package mutsa.practice.mutsasession2;
+package mutsa.practice.prac;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class MutsaSession2ApplicationTests {
+class PracApplicationTests {
 
-    @Test
-    void contextLoads() {
-    }
+	@Test
+	void contextLoads() {
+	}
 
 }

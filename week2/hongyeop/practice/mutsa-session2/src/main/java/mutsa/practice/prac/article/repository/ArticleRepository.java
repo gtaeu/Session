@@ -1,8 +1,7 @@
-package mutsa.practice.mutsasession2.repository;
+package mutsa.practice.prac.article.repository;
 
-import lombok.Getter;
 import lombok.extern.slf4j.Slf4j;
-import mutsa.practice.mutsasession2.entity.Article;
+import mutsa.practice.prac.article.entity.Article;
 import org.springframework.stereotype.Repository;
 
 import java.util.ArrayList;
@@ -11,12 +10,15 @@ import java.util.List;
 import java.util.Map;
 
 @Repository
-@Getter
 @Slf4j
 public class ArticleRepository {
     private long PRIMARY_ID = 1;
 
     private Map<Long, Article> database = new HashMap<>();
+
+    public List<Article> findAll() {
+        return new ArrayList<>(database.values());
+    }
 
     public Long save(Article article) {
         log.info("Primary ID: " + PRIMARY_ID);
@@ -28,7 +30,13 @@ public class ArticleRepository {
         return database.get(id);
     }
 
-    public List<Article> findAll() {
-        return new ArrayList<>(database.values());
+    public List<Article> findByKeyword(String keyword) {
+        List<Article> articles = new ArrayList<>();
+        for (Article article : database.values()) {
+            if (article.getTitle().contains(keyword) || article.getDescription().contains(keyword))
+                articles.add(article);
+        }
+        return articles;
     }
+
 }
