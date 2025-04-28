@@ -1,6 +1,7 @@
 package hello.hello_spring.repository;
 
 import hello.hello_spring.domain.Member;
+import org.springframework.stereotype.Repository;
 
 import java.util.*;
 
@@ -11,7 +12,7 @@ public class MemoryMemberRepository implements MemberRepository {
 
     @Override
     public Member save(Member member) {
-        member.setId(sequence++);
+        member.setId(++sequence);
         //회원 ID 설정, sequence 값 증가 (회원 수 +1)
         store.put(member.getId(), member); //map에 저장
         return member;
