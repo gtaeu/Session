@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="104d4c55-2a89-42e5-9d1d-d7b06e447300" name="Changes" comment="Changes">
+      <change beforePath="$PROJECT_DIR$/homework/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/.gradle/8.13/checksums/checksums.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/.gradle/8.13/executionHistory/executionHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/.gradle/8.13/executionHistory/executionHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/.gradle/8.13/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/.gradle/8.13/fileHashes/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/.gradle/8.13/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/.gradle/8.13/fileHashes/resourceHashesCache.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/.gradle/8.13/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/.gradle/file-system.probe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/.gradle/vcs-1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/HELP.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/homework/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/build/resources/main/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/src/main/java/hello/hello_spring/HelloSpringApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/src/test/java/hello/hello_spring/HelloSpringApplicationTests.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2wBH5z8uvW9TUXzdhtOmCuAveK6" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Gradle.Build shinae.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "Spring Boot.HelloSpringApplication.executor": "Run",
+    "git-widget-placeholder": "week2/shinae",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="HelloSpringApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="hello-spring.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="hello.hello_spring.HelloSpringApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-a94e463ab2e7-intellij.indexing.shared.core-IU-243.26053.27" />
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-IU-243.26053.27" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="104d4c55-2a89-42e5-9d1d-d7b06e447300" name="Changes" comment="" />
+      <created>1745507870508</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1745507870508</updated>
+      <workItem from="1745507875053" duration="2738000" />
+      <workItem from="1745543672609" duration="3684000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
