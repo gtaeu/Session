@@ -1,10 +1,13 @@
 package likelion.shopping_mall.entity;
 
 import jakarta.persistence.*;
-import lombok.Getter;
+import lombok.*;
 
 @Entity
 @Getter
+@NoArgsConstructor
+@AllArgsConstructor
+@Builder
 public class Product {
 
     @Id
@@ -14,4 +17,5 @@ public class Product {
     private String name;
     private String category;
     private int price;
+    private String description;
 }
