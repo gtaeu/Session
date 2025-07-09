@@ -1,19 +1,18 @@
+# default 공통 설정
 spring:
   datasource:
-    url: jdbc:mysql://mutsa-db.c9c6sgcw26xh.ap-southeast-2.rds.amazonaws.com:3306/shopping_mall
-    username: gwanghwi
-    password: gwang12345
+    url: jdbc:mysql://localhost:3306/shopping_mall?serverTimezone=Asia/Seoul
+    username: root
+    password: ${DB_PASSWORD}
     driver-class-name: com.mysql.cj.jdbc.Driver
   sql:
     init:
       mode: never
+
   jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true  # 콘솔에 sql 출력
     properties:
       hibernate:
-        dialect: org.hibernate.dialect.MySQL8Dialect
-        show_sql: true
         format_sql: true
-        #        use_sql_comments: true
-        hbm2ddl:
-          auto: update
-        default_batch_fetch_size: 1000

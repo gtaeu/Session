@@ -1,13 +1,17 @@
 package likelion.shopping_mall.entity;
 
 import jakarta.persistence.*;
-import lombok.Getter;
+import lombok.*;
 
 import java.util.ArrayList;
 import java.util.List;
 
 @Entity
 @Getter
+@Setter
+@Builder
+@NoArgsConstructor
+@AllArgsConstructor
 public class Cart {
 
     @Id
@@ -19,5 +23,6 @@ public class Cart {
     private User user;
 
     @OneToMany(mappedBy = "cart")
-    private List<CartItem> cartItems = new ArrayList<CartItem>();
+    @Builder.Default
+    private List<CartItem> cartItems = new ArrayList<>();
 }
