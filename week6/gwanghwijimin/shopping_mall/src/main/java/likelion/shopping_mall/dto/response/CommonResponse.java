@@ -1,11 +1,13 @@
 package likelion.shopping_mall.dto.response;
 
 import lombok.AllArgsConstructor;
+import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 
 // 공통 응답용 dto
 @RequiredArgsConstructor
 @AllArgsConstructor
+@Getter
 public class CommonResponse<T> {
     private T data;
     private boolean success;

@@ -15,7 +15,9 @@ public class CartResponse {
     @Builder
     public CartResponse(List<CartItemResponse> cartItems) {
         this.cartItems = cartItems;
-        this.cartTotalItems = cartItems.size();
+        this.cartTotalItems = cartItems.stream()
+                .mapToInt(CartItemResponse::getQuantity)
+                .sum();
         this.cartTotalPrice = cartItems.stream()
                 .mapToInt(CartItemResponse::getTotalPrice)
                 .sum();
