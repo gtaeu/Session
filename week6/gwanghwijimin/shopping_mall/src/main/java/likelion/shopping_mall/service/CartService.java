@@ -38,7 +38,7 @@ public class CartService {
 
         List<CartItemResponse> cartItems = cart.getCartItems().stream()
                 .map(item -> CartItemResponse.builder()
-                        .id(item.getId())
+                        .id(item.getProduct().getId())
                         .name(item.getProduct().getName())
                         .category(item.getProduct().getCategory())
                         .price(item.getProduct().getPrice())
